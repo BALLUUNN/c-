@@ -21,6 +21,10 @@ void generatePoint(int n) {
 }
 
 int main() {
-    generatePoint(20);
+    int n;
+    cout << "Enter your number: ";
+    cin >> n;
+    
+    generatePoint(n);
     return 0;
 }

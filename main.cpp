@@ -11,7 +11,7 @@ void generatePoint(int n) {
             result += " ";
         }
         for (int i = 0; i < (2*r - 1); ++i) {
-git            result += "*";
+           result += "*";
         }
         ++r;
         --l;
